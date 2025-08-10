@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Work Anniversary!</title>
+    <style>
+        body { font-family: Arial, sans-serif; background-color: #f4f4f4; margin: 0; padding: 0; }
+        .container { width: 100%; max-width: 600px; margin: 20px auto; background-color: #ffffff; border-radius: 8px; border: 1px solid #dddddd; }
+        .header { background-color: #2E7D32; /* Verde comemorativo */ color: #ffffff; padding: 30px; text-align: center; border-top-left-radius: 8px; border-top-right-radius: 8px; }
+        .header h2 { margin: 0; font-size: 28px; }
+        .content { padding: 30px; text-align: center; color: #333333; }
+        .content p { font-size: 18px; line-height: 1.6; }
+        .highlight { color: #2E7D32; font-weight: bold; font-size: 20px; }
+        .footer { background-color: #f4f4f4; color: #888888; padding: 20px; text-align: center; font-size: 12px; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h2>Feliz Aniversário de Empresa!</h2>
+        </div>
+        <div class="content">
+            <p>Olá, {{ contributor_name }},</p>
+            <p>Hoje é um dia especial! Queremos celebrar com você seus <span class="highlight">{{ years_completed }} anos</span> de dedicação e contribuição para o nosso time.</p>
+            <p>Agradecemos por todo o seu trabalho e esperamos continuar essa jornada de sucesso juntos por muitos anos!</p>
+            <p>Com os melhores cumprimentos,<br>Equipe de RH</p>
+        </div>
+        <div class="footer">
+            Esta é uma mensagem automática enviada pelo Sistema de Automação RH.
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Area Hours Summary</title>
+    <style>
+        body { font-family: Arial, sans-serif; background-color: #f4f4f4; margin: 0; padding: 0; }
+        .container { width: 100%; max-width: 600px; margin: 20px auto; background-color: #ffffff; border-radius: 8px; border: 1px solid #dddddd; }
+        .header { background-color: #4A148C; color: #ffffff; padding: 20px; text-align: center; border-top-left-radius: 8px; border-top-right-radius: 8px; }
+        .content { padding: 30px; color: #333333; }
+        
+        /* Tabela que contém os cards dos funcionários */
+        .employee-list-table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+
+        /* Estilo para cada card de funcionário */
+        .employee-card {
+            width: 100%;
+            border: 1px solid #e0e0e0;
+            border-radius: 6px;
+            background-color: #f9f9f9;
+        }
+        .employee-card td {
+            padding: 10px 15px;
+            font-size: 14px;
+        }
+        .label {
+            color: #555555;
+            width: 120px;
+        }
+        .value {
+            color: #111111;
+            font-weight: bold;
+        }
+        .footer { background-color: #f4f4f4; color: #888888; padding: 20px; text-align: center; font-size: 12px; border-bottom-left-radius: 8px; border-bottom-right-radius: 8px; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h2>Daily Summary for Area: {{ area_name }}</h2>
+        </div>
+        <div class="content">
+            <p>Hello, {{ coordinator_name }},</p>
+            <p>Here is the summary of hours logged by employees in your area on <b>{{ target_date }}</b>:</p>
+            
+            <table class="employee-list-table" width="100%" cellspacing="0" cellpadding="0">
+                {{ area_summary_html | safe }}
+            </table>
+            
+            <p>Best regards,<br>RH Automation System</p>
+        </div>
+        <div class="footer">
+            This is an automated message. Please do not reply.
+        </div>
+    </div>
+</body>
+</html>

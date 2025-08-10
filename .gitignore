@@ -1,0 +1,16 @@
+# Arquivo de variáveis de ambiente - NUNCA ENVIE ESTE ARQUIVO PARA O REPOSITÓRIO!
+.env
+
+# Arquivos de cache do Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Arquivos de ambiente virtual
+.venv/
+
+# Logs
+/logs
+
+# Chave Google
+google_credentials.json

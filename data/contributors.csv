@@ -1,0 +1,151 @@
+EMPLOYEE_ID,CONTRIBUTOR_NAME,CONTRIBUTOR_EMAIL,TEAM,MANAGER_NAME,MANAGER_EMAIL,AREA,COORDINATOR_NAME,COORDINATOR_EMAIL,HOURS_WORKED,LAST_UPDATE,ADMISSION_DATE,COST_CENTER,STATUS
+1001,Davi Lucca da Mota,eduardobdel@gmail.com,Delta,Fernanda Dias,fernanda.dias@example.com,Operações,Marcos Pinto,marcos.pinto@example.com,13.5,08/06/2025 10:15:42 -03:00,2023-05-18,CC-401,Active
+1002,Alexia da Conceição,eduardobdel@gmail.com,Charlie,Carlos Lima,carlos.lima@example.com,Marketing,Beatriz Gomes,beatriz.gomes@example.com,15.8,08/06/2025 21:05:31 -03:00,2022-11-23,CC-301,Active
+1003,Alícia Viana,eduardobdel@gmail.com,Alpha,Ana Costa,ana.costa@example.com,TI,Juliano Chaves,juliano.chaves@example.com,12.1,08/06/2025 14:28:11 -03:00,2024-07-01,CC-101,Active
+1004,Augusto Teixeira,eduardobdel@gmail.com,Eagle,Roberto Nunes,roberto.nunes@example.com,Financeiro,Laura Martins,laura.martins@example.com,14.7,07/06/2025 09:33:05 -03:00,2021-09-05,CC-501,Active
+1005,Gael Pires,eduardobdel@gmail.com,Bravo,Ricardo Mendes,ricardo.mendes@example.com,Vendas,Sonia Faria,sonia.faria@example.com,11.2,08/06/2025 11:50:22 -03:00,2022-03-12,CC-202,Active
+1006,Isis da Paz,eduardobdel@gmail.com,Omega,Marcia Rocha,marcia.rocha@example.com,RH,Fabio Barros,fabio.barros@example.com,8.2,08/06/2025 15:01:56 -03:00,2023-01-20,CC-601,Active
+1007,Enzo Jesus,eduardobdel@gmail.com,Alpha,Ana Costa,ana.costa@example.com,TI,Juliano Chaves,juliano.chaves@example.com,10.5,08/06/2025 13:40:07 -03:00,2021-12-15,CC-101,Active
+1008,Catarina da Rosa,eduardobdel@gmail.com,Charlie,Carlos Lima,carlos.lima@example.com,Marketing,Beatriz Gomes,beatriz.gomes@example.com,13.3,08/06/2025 22:18:44 -03:00,2024-02-08,CC-301,Active
+1009,Nicolas Azevedo,eduardobdel@gmail.com,Delta,Fernanda Dias,fernanda.dias@example.com,Operações,Marcos Pinto,marcos.pinto@example.com,9.9,08/06/2025 10:05:19 -03:00,2022-08-01,CC-401,Active
+1010,Ayla Monteiro,eduardobdel@gmail.com,Bravo,Ricardo Mendes,ricardo.mendes@example.com,Vendas,Sonia Faria,sonia.faria@example.com,12.8,08/06/2025 12:33:41 -03:00,2023-06-19,CC-202,Active
+1011,Heitor da Costa,eduardobdel@gmail.com,Eagle,Roberto Nunes,roberto.nunes@example.com,Financeiro,Laura Martins,laura.martins@example.com,15.1,08/06/2025 09:55:03 -03:00,2021-10-28,CC-501,On Leave
+1012,Theo Barros,eduardobdel@gmail.com,Omega,Marcia Rocha,marcia.rocha@example.com,RH,Fabio Barros,fabio.barros@example.com,7.5,08/06/2025 14:45:37 -03:00,2024-04-03,CC-601,Active
+1013,Benício das Neves,eduardobdel@gmail.com,Alpha,Ana Costa,ana.costa@example.com,TI,Juliano Chaves,juliano.chaves@example.com,11.7,08/06/2025 16:20:15 -03:00,2022-01-11,CC-101,Active
+1014,Maria Cecília Lopes,eduardobdel@gmail.com,Bravo,Ricardo Mendes,ricardo.mendes@example.com,Vendas,Sonia Faria,sonia.faria@example.com,14.2,08/06/2025 13:01:09 -03:00,2023-09-07,CC-202,Active
+1015,Valentina Farias,eduardobdel@gmail.com,Charlie,Carlos Lima,carlos.lima@example.com,Marketing,Beatriz Gomes,beatriz.gomes@example.com,10.1,09/06/2025 10:12:24 -03:00,2021-05-22,CC-301,Active
+1016,Luiza Pinto,eduardobdel@gmail.com,Delta,Fernanda Dias,fernanda.dias@example.com,Operações,Marcos Pinto,marcos.pinto@example.com,12.0,08/06/2025 11:30:58 -03:00,2022-10-04,CC-401,Active
+1017,Stella Cavalcanti,eduardobdel@gmail.com,Eagle,Roberto Nunes,roberto.nunes@example.com,Financeiro,Laura Martins,laura.martins@example.com,6.9,08/06/2025 09:10:49 -03:00,2023-08-14,CC-501,Active
+1018,Cauã Martins,eduardobdel@gmail.com,Omega,Marcia Rocha,marcia.rocha@example.com,RH,Fabio Barros,fabio.barros@example.com,13.8,08/06/2025 17:05:11 -03:00,2022-05-30,CC-601,Active
+1019,Isaac da Cunha,eduardobdel@gmail.com,Alpha,Ana Costa,ana.costa@example.com,TI,Juliano Chaves,juliano.chaves@example.com,15.5,08/06/2025 18:00:27 -03:00,2024-01-09,CC-101,Active
+1020,Gael Porto,eduardobdel@gmail.com,Bravo,Ricardo Mendes,ricardo.mendes@example.com,Vendas,Sonia Faria,sonia.faria@example.com,11.6,08/06/2025 14:55:00 -03:00,2021-03-18,CC-202,Active
+1021,Hadassa Ribeiro,eduardobdel@gmail.com,Charlie,Carlos Lima,carlos.lima@example.com,Marketing,Beatriz Gomes,beatriz.gomes@example.com,9.1,08/06/2025 20:40:33 -03:00,2022-09-13,CC-301,Active
+1022,Samuel Dias,eduardobdel@gmail.com,Delta,Fernanda Dias,fernanda.dias@example.com,Operações,Marcos Pinto,marcos.pinto@example.com,12.3,08/06/2025 12:22:18 -03:00,2023-04-25,CC-401,Active
+1023,Helena Pereira,eduardobdel@gmail.com,Eagle,Roberto Nunes,roberto.nunes@example.com,Financeiro,Laura Martins,laura.martins@example.com,14.0,08/06/2025 09:25:51 -03:00,2021-08-08,CC-501,Active
+1024,Maitê Aragão,eduardobdel@gmail.com,Omega,Marcia Rocha,marcia.rocha@example.com,RH,Fabio Barros,fabio.barros@example.com,8.8,08/06/2025 16:33:04 -03:00,2022-07-07,CC-601,Active
+1025,Anthony Barbosa,eduardobdel@gmail.com,Alpha,Ana Costa,ana.costa@example.com,TI,Juliano Chaves,juliano.chaves@example.com,10.8,08/06/2025 11:10:59 -03:00,2023-11-29,CC-101,Active
+1026,Isadora Rocha,eduardobdel@gmail.com,Bravo,Ricardo Mendes,ricardo.mendes@example.com,Vendas,Sonia Faria,sonia.faria@example.com,13.6,08/06/2025 13:38:12 -03:00,2022-04-05,CC-202,Active
+1027,Davi Viana,eduardobdel@gmail.com,Charlie,Carlos Lima,carlos.lima@example.com,Marketing,Beatriz Gomes,beatriz.gomes@example.com,15.9,08/06/2025 19:50:47 -03:00,2021-01-19,CC-301,Active
+1028,Maria Alice Correia,eduardobdel@gmail.com,Delta,Fernanda Dias,fernanda.dias@example.com,Operações,Marcos Pinto,marcos.pinto@example.com,7.1,08/06/2025 10:48:39 -03:00,2023-02-16,CC-401,Active
+1029,Ryan da Cruz,eduardobdel@gmail.com,Eagle,Roberto Nunes,roberto.nunes@example.com,Financeiro,Laura Martins,laura.martins@example.com,11.5,08/06/2025 09:05:23 -03:00,2022-06-21,CC-501,On Leave
+1030,Emanuelly Fogaça,eduardobdel@gmail.com,Omega,Marcia Rocha,marcia.rocha@example.com,RH,Fabio Barros,fabio.barros@example.com,14.4,08/06/2025 15:20:18 -03:00,2021-06-03,CC-601,Active
+1031,Maria Júlia Costela,eduardobdel@gmail.com,Alpha,Ana Costa,ana.costa@example.com,TI,Juliano Chaves,juliano.chaves@example.com,10.2,08/06/2025 12:55:01 -03:00,2023-10-10,CC-101,Active
+1032,Isabelly Campos,eduardobdel@gmail.com,Bravo,Ricardo Mendes,ricardo.mendes@example.com,Vendas,Sonia Faria,sonia.faria@example.com,12.7,08/06/2025 14:03:45 -03:00,2022-12-01,CC-202,Active
+1033,Yasmin Gonçalves,eduardobdel@gmail.com,Charlie,Carlos Lima,carlos.lima@example.com,Marketing,Beatriz Gomes,beatriz.gomes@example.com,8.4,08/06/2025 19:00:59 -03:00,2021-02-24,CC-301,Active
+1034,Enzo Gabriel Peixoto,eduardobdel@gmail.com,Delta,Fernanda Dias,fernanda.dias@example.com,Operações,Marcos Pinto,marcos.pinto@example.com,11.0,08/06/2025 11:01:27 -03:00,2023-07-13,CC-401,Active
+1035,Henrique Fernandes,eduardobdel@gmail.com,Eagle,Roberto Nunes,roberto.nunes@example.com,Financeiro,Laura Martins,laura.martins@example.com,13.9,08/06/2025 09:44:11 -03:00,2022-02-09,CC-501,Active
+1036,Davi Lucca Cunha,eduardobdel@gmail.com,Omega,Marcia Rocha,marcia.rocha@example.com,RH,Fabio Barros,fabio.barros@example.com,15.7,08/06/2025 16:11:34 -03:00,2021-11-06,CC-601,Active
+1037,Luiz Otávio Jesus,eduardobdel@gmail.com,Alpha,Ana Costa,ana.costa@example.com,TI,Juliano Chaves,juliano.chaves@example.com,6.5,08/06/2025 10:28:44 -03:00,2024-03-22,CC-101,Active
+1038,Cecília da Mata,eduardobdel@gmail.com,Bravo,Ricardo Mendes,ricardo.mendes@example.com,Vendas,Sonia Faria,sonia.faria@example.com,10.3,08/06/2025 12:10:17 -03:00,2022-11-17,CC-202,Active
+1039,Maria Clara Caldeira,eduardobdel@gmail.com,Charlie,Carlos Lima,carlos.lima@example.com,Marketing,Beatriz Gomes,beatriz.gomes@example.com,12.4,09/06/2025 18:30:21 -03:00,2021-04-15,CC-301,Active
+1040,Bernardo Cardoso,eduardobdel@gmail.com,Delta,Fernanda Dias,fernanda.dias@example.com,Operações,Marcos Pinto,marcos.pinto@example.com,14.8,08/06/2025 13:55:08 -03:00,2023-01-26,CC-401,Active
+1041,Maria Eduarda da Cruz,eduardobdel@gmail.com,Eagle,Roberto Nunes,roberto.nunes@example.com,Financeiro,Laura Martins,laura.martins@example.com,9.3,08/06/2025 09:18:39 -03:00,2022-08-31,CC-501,Active
+1042,Otávio da Rocha,eduardobdel@gmail.com,Omega,Marcia Rocha,marcia.rocha@example.com,RH,Fabio Barros,fabio.barros@example.com,11.4,08/06/2025 17:48:52 -03:00,2021-09-24,CC-601,Active
+1043,Levi Fogaça,eduardobdel@gmail.com,Alpha,Ana Costa,ana.costa@example.com,TI,Juliano Chaves,juliano.chaves@example.com,13.2,08/06/2025 15:05:50 -03:00,2023-12-08,CC-101,Active
+1044,Melissa Costela,eduardobdel@gmail.com,Bravo,Ricardo Mendes,ricardo.mendes@example.com,Vendas,Sonia Faria,sonia.faria@example.com,15.0,08/06/2025 14:40:19 -03:00,2022-10-18,CC-202,Active
+1045,Pedro Lucas Campos,eduardobdel@gmail.com,Charlie,Carlos Lima,carlos.lima@example.com,Marketing,Beatriz Gomes,beatriz.gomes@example.com,10.6,08/06/2025 20:20:41 -03:00,2021-07-03,CC-301,On Leave
+1046,Joaquim Gonçalves,eduardobdel@gmail.com,Delta,Fernanda Dias,fernanda.dias@example.com,Operações,Marcos Pinto,marcos.pinto@example.com,12.9,08/06/2025 12:03:14 -03:00,2023-05-02,CC-401,Active
+1047,Nathan Peixoto,eduardobdel@gmail.com,Eagle,Roberto Nunes,roberto.nunes@example.com,Financeiro,Laura Martins,laura.martins@example.com,8.0,08/06/2025 09:59:47 -03:00,2022-03-27,CC-501,Active
+1048,Francisco Fernandes,eduardobdel@gmail.com,Omega,Marcia Rocha,marcia.rocha@example.com,RH,Fabio Barros,fabio.barros@example.com,11.8,08/06/2025 15:58:20 -03:00,2021-12-11,CC-601,Active
+1049,Isabel Cunha,eduardobdel@gmail.com,Alpha,Ana Costa,ana.costa@example.com,TI,Juliano Chaves,juliano.chaves@example.com,13.5,08/06/2025 13:15:33 -03:00,2024-06-16,CC-101,Active
+1050,Isaac Jesus,eduardobdel@gmail.com,Bravo,Ricardo Mendes,ricardo.mendes@example.com,Vendas,Sonia Faria,sonia.faria@example.com,15.4,08/06/2025 12:48:06 -03:00,2022-11-09,CC-202,Active
+1051,João Guilherme da Conceição,eduardobdel@gmail.com,Alpha,Ana Costa,ana.costa@example.com,TI,Juliano Chaves,juliano.chaves@example.com,10.2,08/06/2025 09:36:13 -03:00,2023-04-23,CC-101,Active
+1052,Isaac da Mota,eduardobdel@gmail.com,Bravo,Ricardo Mendes,ricardo.mendes@example.com,Vendas,Sonia Faria,sonia.faria@example.com,14.7,08/06/2025 10:17:21 -03:00,2022-11-16,CC-202,Active
+1053,Clarice Moraes,eduardobdel@gmail.com,Charlie,Carlos Lima,carlos.lima@example.com,Marketing,Beatriz Gomes,beatriz.gomes@example.com,6.8,08/06/2025 11:46:19 -03:00,2020-08-09,CC-301,Active
+1054,Enzo Pires,eduardobdel@gmail.com,Delta,Fernanda Dias,fernanda.dias@example.com,Operações,Marcos Pinto,marcos.pinto@example.com,12.4,08/06/2025 12:47:49 -03:00,2023-05-02,CC-401,Active
+1055,Helena da Paz,eduardobdel@gmail.com,Eagle,Roberto Nunes,roberto.nunes@example.com,Financeiro,Laura Martins,laura.martins@example.com,15.1,08/06/2025 13:48:47 -03:00,2021-01-26,CC-501,Active
+1056,Esther Jesus,eduardobdel@gmail.com,Omega,Marcia Rocha,marcia.rocha@example.com,RH,Fabio Barros,fabio.barros@example.com,8.9,08/06/2025 14:52:13 -03:00,2022-10-19,CC-601,Active
+1057,Luiz Otávio da Rosa,eduardobdel@gmail.com,Alpha,Ana Costa,ana.costa@example.com,TI,Juliano Chaves,juliano.chaves@example.com,11.3,08/06/2025 15:53:35 -03:00,2020-07-12,CC-101,Active
+1058,Pedro Lucas Azevedo,eduardobdel@gmail.com,Bravo,Ricardo Mendes,ricardo.mendes@example.com,Vendas,Sonia Faria,sonia.faria@example.com,13.6,08/06/2025 16:55:04 -03:00,2023-04-05,CC-202,Active
+1059,Miguel Monteiro,eduardobdel@gmail.com,Charlie,Carlos Lima,carlos.lima@example.com,Marketing,Beatriz Gomes,beatriz.gomes@example.com,9.6,08/06/2025 17:58:34 -03:00,2020-12-29,CC-301,Active
+1060,Elisa da Costa,eduardobdel@gmail.com,Delta,Fernanda Dias,fernanda.dias@example.com,Operações,Marcos Pinto,marcos.pinto@example.com,12.8,07/06/2025 10:14:15 -03:00,2022-09-22,CC-401,Active
+1061,Davi Lucca Barros,eduardobdel@gmail.com,Eagle,Roberto Nunes,roberto.nunes@example.com,Financeiro,Laura Martins,laura.martins@example.com,14.8,08/06/2025 11:21:40 -03:00,2020-06-15,CC-501,Active
+1062,Cecília das Neves,eduardobdel@gmail.com,Omega,Marcia Rocha,marcia.rocha@example.com,RH,Fabio Barros,fabio.barros@example.com,8.2,08/06/2025 12:28:13 -03:00,2023-03-08,CC-601,On Leave
+1063,Sophia Lopes,eduardobdel@gmail.com,Alpha,Ana Costa,ana.costa@example.com,TI,Juliano Chaves,juliano.chaves@example.com,10.6,08/06/2025 13:35:36 -03:00,2020-12-01,CC-101,Active
+1064,Gael Farias,eduardobdel@gmail.com,Bravo,Ricardo Mendes,ricardo.mendes@example.com,Vendas,Sonia Faria,sonia.faria@example.com,13.1,08/06/2025 14:41:48 -03:00,2022-08-25,CC-202,Active
+1065,Benício Pinto,eduardobdel@gmail.com,Charlie,Carlos Lima,carlos.lima@example.com,Marketing,Beatriz Gomes,beatriz.gomes@example.com,9.2,08/06/2025 15:46:58 -03:00,2020-05-18,CC-301,Active
+1066,Lorena Cavalcanti,eduardobdel@gmail.com,Delta,Fernanda Dias,fernanda.dias@example.com,Operações,Marcos Pinto,marcos.pinto@example.com,11.9,08/06/2025 16:51:30 -03:00,2023-02-11,CC-401,Active
+1067,Davi Martins,eduardobdel@gmail.com,Eagle,Roberto Nunes,roberto.nunes@example.com,Financeiro,Laura Martins,laura.martins@example.com,14.3,08/06/2025 17:55:04 -03:00,2020-11-04,CC-501,Active
+1068,Catarina da Cunha,eduardobdel@gmail.com,Omega,Marcia Rocha,marcia.rocha@example.com,RH,Fabio Barros,fabio.barros@example.com,7.8,08/06/2025 10:20:41 -03:00,2022-07-28,CC-601,Active
+1069,Heitor Porto,eduardobdel@gmail.com,Alpha,Ana Costa,ana.costa@example.com,TI,Juliano Chaves,juliano.chaves@example.com,10.1,08/06/2025 11:28:13 -03:00,2020-04-21,CC-101,Active
+1070,Theo Ribeiro,eduardobdel@gmail.com,Bravo,Ricardo Mendes,ricardo.mendes@example.com,Vendas,Sonia Faria,sonia.faria@example.com,12.6,06/06/2025 12:35:09 -03:00,2023-01-14,CC-202,Active
+1071,Maria Alice Dias,eduardobdel@gmail.com,Charlie,Carlos Lima,carlos.lima@example.com,Marketing,Beatriz Gomes,beatriz.gomes@example.com,8.8,08/06/2025 13:41:22 -03:00,2020-10-07,CC-301,Active
+1072,Maria Cecília Pereira,eduardobdel@gmail.com,Delta,Fernanda Dias,fernanda.dias@example.com,Operações,Marcos Pinto,marcos.pinto@example.com,11.4,08/06/2025 14:46:11 -03:00,2022-06-21,CC-401,Active
+1073,Isadora Aragão,eduardobdel@gmail.com,Eagle,Roberto Nunes,roberto.nunes@example.com,Financeiro,Laura Martins,laura.martins@example.com,13.8,08/06/2025 15:50:09 -03:00,2020-03-24,CC-501,Active
+1074,Levi Barbosa,eduardobdel@gmail.com,Omega,Marcia Rocha,marcia.rocha@example.com,RH,Fabio Barros,fabio.barros@example.com,7.1,08/06/2025 16:53:14 -03:00,2022-12-17,CC-601,Active
+1075,Henrique Rocha,eduardobdel@gmail.com,Alpha,Ana Costa,ana.costa@example.com,TI,Juliano Chaves,juliano.chaves@example.com,9.7,08/06/2025 17:56:06 -03:00,2020-09-10,CC-101,On Leave
+1076,Bryan Viana,eduardobdel@gmail.com,Bravo,Ricardo Mendes,ricardo.mendes@example.com,Vendas,Sonia Faria,sonia.faria@example.com,12.1,08/06/2025 10:26:22 -03:00,2022-06-03,CC-202,Active
+1077,Samuel Costela,eduardobdel@gmail.com,Charlie,Carlos Lima,carlos.lima@example.com,Marketing,Beatriz Gomes,beatriz.gomes@example.com,8.4,08/06/2025 11:34:04 -03:00,2020-02-27,CC-301,Active
+1078,Ayla da Cunha,eduardobdel@gmail.com,Delta,Fernanda Dias,fernanda.dias@example.com,Operações,Marcos Pinto,marcos.pinto@example.com,10.9,08/06/2025 12:40:48 -03:00,2022-11-20,CC-401,Active
+1079,Augusto da Mata,eduardobdel@gmail.com,Eagle,Roberto Nunes,roberto.nunes@example.com,Financeiro,Laura Martins,laura.martins@example.com,13.3,08/06/2025 13:46:28 -03:00,2020-08-13,CC-501,Active
+1080,Isis Caldeira,eduardobdel@gmail.com,Omega,Marcia Rocha,marcia.rocha@example.com,RH,Fabio Barros,fabio.barros@example.com,6.7,08/06/2025 14:50:09 -03:00,2022-05-06,CC-601,Active
+1081,Ryan Cardoso,eduardobdel@gmail.com,Alpha,Ana Costa,ana.costa@example.com,TI,Juliano Chaves,juliano.chaves@example.com,9.3,08/06/2025 15:53:05 -03:00,2020-01-29,CC-101,Active
+1082,João Miguel da Cruz,eduardobdel@gmail.com,Bravo,Ricardo Mendes,ricardo.mendes@example.com,Vendas,Sonia Faria,sonia.faria@example.com,11.8,08/06/2025 16:55:50 -03:00,2022-10-22,CC-202,Active
+1083,Bernardo da Rocha,eduardobdel@gmail.com,Charlie,Carlos Lima,carlos.lima@example.com,Marketing,Beatriz Gomes,beatriz.gomes@example.com,8.0,08/06/2025 17:58:33 -03:00,2020-07-15,CC-301,Active
+1084,Anthony Fogaça,eduardobdel@gmail.com,Delta,Fernanda Dias,fernanda.dias@example.com,Operações,Marcos Pinto,marcos.pinto@example.com,10.4,08/06/2025 10:31:49 -03:00,2022-04-08,CC-401,Active
+1085,Francisco Costela,eduardobdel@gmail.com,Eagle,Roberto Nunes,roberto.nunes@example.com,Financeiro,Laura Martins,laura.martins@example.com,12.8,07/06/2025 11:39:56 -03:00,2020-01-01,CC-501,Active
+1086,Stella Campos,eduardobdel@gmail.com,Omega,Marcia Rocha,marcia.rocha@example.com,RH,Fabio Barros,fabio.barros@example.com,6.3,08/06/2025 12:46:44 -03:00,2022-09-25,CC-601,Active
+1087,Enzo Gabriel Gonçalves,eduardobdel@gmail.com,Alpha,Ana Costa,ana.costa@example.com,TI,Juliano Chaves,juliano.chaves@example.com,8.9,08/06/2025 13:53:01 -03:00,2020-06-18,CC-101,Active
+1088,Luiz Felipe Peixoto,eduardobdel@gmail.com,Bravo,Ricardo Mendes,ricardo.mendes@example.com,Vendas,Sonia Faria,sonia.faria@example.com,11.3,08/06/2025 14:58:34 -03:00,2022-03-11,CC-202,Active
+1089,Valentina Fernandes,eduardobdel@gmail.com,Charlie,Carlos Lima,carlos.lima@example.com,Marketing,Beatriz Gomes,beatriz.gomes@example.com,7.5,08/06/2025 16:03:22 -03:00,2019-12-04,CC-301,Active
+1090,Laura Cunha,eduardobdel@gmail.com,Delta,Fernanda Dias,fernanda.dias@example.com,Operações,Marcos Pinto,marcos.pinto@example.com,10.0,08/06/2025 17:07:37 -03:00,2022-08-28,CC-401,Active
+1091,Arthur Jesus,eduardobdel@gmail.com,Eagle,Roberto Nunes,roberto.nunes@example.com,Financeiro,Laura Martins,laura.martins@example.com,12.3,08/06/2025 10:37:11 -03:00,2020-05-21,CC-501,Active
+1092,Maria Eduarda da Mata,eduardobdel@gmail.com,Omega,Marcia Rocha,marcia.rocha@example.com,RH,Fabio Barros,fabio.barros@example.com,14.7,08/06/2025 11:45:26 -03:00,2022-02-14,CC-601,Active
+1093,Ravi Caldeira,eduardobdel@gmail.com,Alpha,Ana Costa,ana.costa@example.com,TI,Juliano Chaves,juliano.chaves@example.com,7.1,08/06/2025 12:52:41 -03:00,2019-11-07,CC-101,On Leave
+1094,Maria Clara Cardoso,eduardobdel@gmail.com,Bravo,Ricardo Mendes,ricardo.mendes@example.com,Vendas,Sonia Faria,sonia.faria@example.com,9.6,08/06/2025 13:59:17 -03:00,2022-07-31,CC-202,Active
+1095,Noah da Cruz,eduardobdel@gmail.com,Charlie,Carlos Lima,carlos.lima@example.com,Marketing,Beatriz Gomes,beatriz.gomes@example.com,12.0,08/06/2025 15:05:22 -03:00,2020-04-24,CC-301,Active
+1096,Maria da Rocha,eduardobdel@gmail.com,Delta,Fernanda Dias,fernanda.dias@example.com,Operações,Marcos Pinto,marcos.pinto@example.com,14.4,08/06/2025 16:10:49 -03:00,2022-01-17,CC-401,Active
+1097,Henry Fogaça,eduardobdel@gmail.com,Eagle,Roberto Nunes,roberto.nunes@example.com,Financeiro,Laura Martins,laura.martins@example.com,10.8,08/06/2025 17:15:39 -03:00,2019-10-10,CC-501,Active
+1098,Vicente Costela,eduardobdel@gmail.com,Omega,Marcia Rocha,marcia.rocha@example.com,RH,Fabio Barros,fabio.barros@example.com,13.2,08/06/2025 10:42:37 -03:00,2022-07-03,CC-601,Active
+1099,Kaique Campos,eduardobdel@gmail.com,Alpha,Ana Costa,ana.costa@example.com,TI,Juliano Chaves,juliano.chaves@example.com,9.2,08/06/2025 11:51:00 -03:00,2020-03-27,CC-101,Active
+1100,Enzo Gonçalves,eduardobdel@gmail.com,Bravo,Ricardo Mendes,ricardo.mendes@example.com,Vendas,Sonia Faria,sonia.faria@example.com,11.6,08/06/2025 12:58:35 -03:00,2021-12-20,CC-202,Active
+1101,Ayla Peixoto,eduardobdel@gmail.com,Charlie,Carlos Lima,carlos.lima@example.com,Marketing,Beatriz Gomes,beatriz.gomes@example.com,7.4,08/06/2025 14:05:32 -03:00,2019-09-13,CC-301,Active
+1102,Isabel Fernandes,eduardobdel@gmail.com,Delta,Fernanda Dias,fernanda.dias@example.com,Operações,Marcos Pinto,marcos.pinto@example.com,9.9,08/06/2025 15:12:02 -03:00,2022-06-06,CC-401,Active
+1103,Samuel Cunha,eduardobdel@gmail.com,Eagle,Roberto Nunes,roberto.nunes@example.com,Financeiro,Laura Martins,laura.martins@example.com,12.3,08/06/2025 16:18:03 -03:00,2020-02-15,CC-501,Active
+1104,Maitê Jesus,eduardobdel@gmail.com,Omega,Marcia Rocha,marcia.rocha@example.com,RH,Fabio Barros,fabio.barros@example.com,14.8,08/06/2025 17:23:38 -03:00,2021-11-23,CC-601,Active
+1105,Heitor da Mata,eduardobdel@gmail.com,Alpha,Ana Costa,ana.costa@example.com,TI,Juliano Chaves,juliano.chaves@example.com,11.2,08/06/2025 10:47:58 -03:00,2019-08-16,CC-101,Active
+1106,Isis Caldeira,eduardobdel@gmail.com,Bravo,Ricardo Mendes,ricardo.mendes@example.com,Vendas,Sonia Faria,sonia.faria@example.com,13.6,08/06/2025 11:56:40 -03:00,2022-05-09,CC-202,On Leave
+1107,Benjamin Cardoso,eduardobdel@gmail.com,Charlie,Carlos Lima,carlos.lima@example.com,Marketing,Beatriz Gomes,beatriz.gomes@example.com,9.5,08/06/2025 13:04:41 -03:00,2020-02-02,CC-301,Active
+1108,Miguel da Cruz,eduardobdel@gmail.com,Delta,Fernanda Dias,fernanda.dias@example.com,Operações,Marcos Pinto,marcos.pinto@example.com,11.9,08/06/2025 14:12:07 -03:00,2021-10-26,CC-401,Active
+1109,Alícia da Rocha,eduardobdel@gmail.com,Eagle,Roberto Nunes,roberto.nunes@example.com,Financeiro,Laura Martins,laura.martins@example.com,8.1,08/06/2025 15:19:00 -03:00,2019-07-19,CC-501,Active
+1110,Yuri Fogaça,eduardobdel@gmail.com,Omega,Marcia Rocha,marcia.rocha@example.com,RH,Fabio Barros,fabio.barros@example.com,10.5,08/06/2025 16:25:22 -03:00,2022-04-12,CC-601,Active
+1111,Rebeca Costela,eduardobdel@gmail.com,Alpha,Ana Costa,ana.costa@example.com,TI,Juliano Chaves,juliano.chaves@example.com,12.9,08/06/2025 17:31:13 -03:00,2020-01-05,CC-101,Active
+1112,Alexia Campos,eduardobdel@gmail.com,Bravo,Ricardo Mendes,ricardo.mendes@example.com,Vendas,Sonia Faria,sonia.faria@example.com,15.3,08/06/2025 10:53:18 -03:00,2021-09-29,CC-202,Active
+1113,Otávio Gonçalves,eduardobdel@gmail.com,Charlie,Carlos Lima,carlos.lima@example.com,Marketing,Beatriz Gomes,beatriz.gomes@example.com,11.5,08/06/2025 12:02:18 -03:00,2019-06-22,CC-301,Active
+1114,Erick Peixoto,eduardobdel@gmail.com,Delta,Fernanda Dias,fernanda.dias@example.com,Operações,Marcos Pinto,marcos.pinto@example.com,13.9,08/06/2025 13:10:39 -03:00,2022-03-15,CC-401,Active
+1115,Luiza Fernandes,eduardobdel@gmail.com,Eagle,Roberto Nunes,roberto.nunes@example.com,Financeiro,Laura Martins,laura.martins@example.com,9.8,08/06/2025 14:18:22 -03:00,2019-12-08,CC-501,Active
+1116,Sophia Cunha,eduardobdel@gmail.com,Omega,Marcia Rocha,marcia.rocha@example.com,RH,Fabio Barros,fabio.barros@example.com,12.2,08/06/2025 15:25:35 -03:00,2021-09-01,CC-601,Active
+1117,Davi Jesus,eduardobdel@gmail.com,Alpha,Ana Costa,ana.costa@example.com,TI,Juliano Chaves,juliano.chaves@example.com,14.6,08/06/2025 16:32:15 -03:00,2019-05-25,CC-101,Active
+1118,Lívia da Mata,eduardobdel@gmail.com,Bravo,Ricardo Mendes,ricardo.mendes@example.com,Vendas,Sonia Faria,sonia.faria@example.com,11.1,08/06/2025 17:38:28 -03:00,2022-02-18,CC-202,Active
+1119,Lorenzo Caldeira,eduardobdel@gmail.com,Charlie,Carlos Lima,carlos.lima@example.com,Marketing,Beatriz Gomes,beatriz.gomes@example.com,13.5,08/06/2025 10:58:34 -03:00,2019-11-11,CC-301,Active
+1120,Heloísa Cardoso,eduardobdel@gmail.com,Delta,Fernanda Dias,fernanda.dias@example.com,Operações,Marcos Pinto,marcos.pinto@example.com,9.4,08/06/2025 12:07:49 -03:00,2021-08-04,CC-401,Active
+1121,Isaac da Cruz,eduardobdel@gmail.com,Eagle,Roberto Nunes,roberto.nunes@example.com,Financeiro,Laura Martins,laura.martins@example.com,11.8,08/06/2025 13:16:29 -03:00,2019-04-28,CC-501,Active
+1122,Cauã da Rocha,eduardobdel@gmail.com,Omega,Marcia Rocha,marcia.rocha@example.com,RH,Fabio Barros,fabio.barros@example.com,14.2,08/06/2025 14:24:40 -03:00,2022-01-21,CC-601,Active
+1123,Letícia Fogaça,eduardobdel@gmail.com,Alpha,Ana Costa,ana.costa@example.com,TI,Juliano Chaves,juliano.chaves@example.com,10.7,08/06/2025 15:32:17 -03:00,2019-10-14,CC-101,Active
+1124,Cecília Costela,eduardobdel@gmail.com,Bravo,Ricardo Mendes,ricardo.mendes@example.com,Vendas,Sonia Faria,sonia.faria@example.com,13.1,08/06/2025 16:39:23 -03:00,2021-07-07,CC-202,Active
+1125,Pietro Campos,eduardobdel@gmail.com,Charlie,Carlos Lima,carlos.lima@example.com,Marketing,Beatriz Gomes,beatriz.gomes@example.com,9.0,08/06/2025 17:45:59 -03:00,2019-03-31,CC-301,On Leave
+1126,Laura Gonçalves,eduardobdel@gmail.com,Delta,Fernanda Dias,fernanda.dias@example.com,Operações,Marcos Pinto,marcos.pinto@example.com,11.4,08/06/2025 11:03:52 -03:00,2021-12-24,CC-401,Active
+1127,Felipe Peixoto,eduardobdel@gmail.com,Eagle,Roberto Nunes,roberto.nunes@example.com,Financeiro,Laura Martins,laura.martins@example.com,13.8,08/06/2025 12:13:21 -03:00,2019-09-17,CC-501,Active
+1128,Valentina Fernandes,eduardobdel@gmail.com,Omega,Marcia Rocha,marcia.rocha@example.com,RH,Fabio Barros,fabio.barros@example.com,10.3,08/06/2025 13:22:15 -03:00,2021-06-10,CC-601,Active
+1129,João Gabriel Cunha,eduardobdel@gmail.com,Alpha,Ana Costa,ana.costa@example.com,TI,Juliano Chaves,juliano.chaves@example.com,12.7,08/06/2025 14:30:37 -03:00,2019-03-03,CC-101,Active
+1130,Benício Jesus,eduardobdel@gmail.com,Bravo,Ricardo Mendes,ricardo.mendes@example.com,Vendas,Sonia Faria,sonia.faria@example.com,15.1,08/06/2025 15:38:22 -03:00,2021-11-25,CC-202,Active
+1131,Maitê da Mata,eduardobdel@gmail.com,Charlie,Carlos Lima,carlos.lima@example.com,Marketing,Beatriz Gomes,beatriz.gomes@example.com,11.7,08/06/2025 16:45:37 -03:00,2019-08-18,CC-301,Active
+1132,Pedro Lucas Caldeira,eduardobdel@gmail.com,Delta,Fernanda Dias,fernanda.dias@example.com,Operações,Marcos Pinto,marcos.pinto@example.com,14.1,08/06/2025 17:52:19 -03:00,2021-05-11,CC-401,Active
+1133,Davi Lucca Cardoso,eduardobdel@gmail.com,Eagle,Roberto Nunes,roberto.nunes@example.com,Financeiro,Laura Martins,laura.martins@example.com,10.6,08/06/2025 11:08:59 -03:00,2019-02-04,CC-501,Active
+1134,Davi da Cruz,eduardobdel@gmail.com,Omega,Marcia Rocha,marcia.rocha@example.com,RH,Fabio Barros,fabio.barros@example.com,13.0,08/06/2025 12:18:41 -03:00,2021-10-28,CC-601,Active
+1135,Giovanna da Rocha,eduardobdel@gmail.com,Alpha,Ana Costa,ana.costa@example.com,TI,Juliano Chaves,juliano.chaves@example.com,8.8,08/06/2025 13:27:49 -03:00,2019-07-21,CC-101,Active
+1136,Erick Fogaça,eduardobdel@gmail.com,Bravo,Ricardo Mendes,ricardo.mendes@example.com,Vendas,Sonia Faria,sonia.faria@example.com,11.2,08/06/2025 14:36:22 -03:00,2021-04-14,CC-202,Active
+1137,Heloísa Costela,eduardobdel@gmail.com,Charlie,Carlos Lima,carlos.lima@example.com,Marketing,Beatriz Gomes,beatriz.gomes@example.com,13.6,08/06/2025 15:44:20 -03:00,2019-01-07,CC-301,Active
+1138,Manuela Campos,eduardobdel@gmail.com,Delta,Fernanda Dias,fernanda.dias@example.com,Operações,Marcos Pinto,marcos.pinto@example.com,9.9,08/06/2025 16:51:46 -03:00,2021-09-28,CC-401,Active
+1139,Isabel Gonçalves,eduardobdel@gmail.com,Eagle,Roberto Nunes,roberto.nunes@example.com,Financeiro,Laura Martins,laura.martins@example.com,12.3,08/06/2025 17:58:39 -03:00,2019-06-24,CC-501,On Leave
+1140,Luiz Felipe Peixoto,eduardobdel@gmail.com,Omega,Marcia Rocha,marcia.rocha@example.com,RH,Fabio Barros,fabio.barros@example.com,14.7,08/06/2025 11:14:14 -03:00,2021-03-17,CC-601,Active
+1141,Melissa Fernandes,eduardobdel@gmail.com,Alpha,Ana Costa,ana.costa@example.com,TI,Juliano Chaves,juliano.chaves@example.com,11.3,08/06/2025 12:24:08 -03:00,2018-12-10,CC-101,Active
+1142,Maria Alice Cunha,eduardobdel@gmail.com,Bravo,Ricardo Mendes,ricardo.mendes@example.com,Vendas,Sonia Faria,sonia.faria@example.com,13.7,08/06/2025 13:33:28 -03:00,2021-09-03,CC-202,Active
+1143,Cauã Jesus,eduardobdel@gmail.com,Charlie,Carlos Lima,carlos.lima@example.com,Marketing,Beatriz Gomes,beatriz.gomes@example.com,9.6,08/06/2025 14:42:12 -03:00,2019-05-27,CC-301,Active
+1144,Ravi da Mata,eduardobdel@gmail.com,Delta,Fernanda Dias,fernanda.dias@example.com,Operações,Marcos Pinto,marcos.pinto@example.com,12.0,08/06/2025 15:50:23 -03:00,2021-02-20,CC-401,Active
+1145,Maria Clara Caldeira,eduardobdel@gmail.com,Eagle,Roberto Nunes,roberto.nunes@example.com,Financeiro,Laura Martins,laura.martins@example.com,14.4,08/06/2025 16:57:58 -03:00,2018-11-13,CC-501,Active
+1146,Hadassa Cardoso,eduardobdel@gmail.com,Omega,Marcia Rocha,marcia.rocha@example.com,RH,Fabio Barros,fabio.barros@example.com,10.9,08/06/2025 18:05:00 -03:00,2021-08-06,CC-601,Active
+1147,Noah da Cruz,eduardobdel@gmail.com,Alpha,Ana Costa,ana.costa@example.com,TI,Juliano Chaves,juliano.chaves@example.com,13.3,08/06/2025 11:19:33 -03:00,2019-04-30,CC-101,Active
+1148,Henry da Rocha,eduardobdel@gmail.com,Bravo,Ricardo Mendes,ricardo.mendes@example.com,Vendas,Sonia Faria,sonia.faria@example.com,9.2,08/06/2025 12:29:40 -03:00,2021-01-23,CC-202,Active
+1149,José Fogaça,eduardobdel@gmail.com,Charlie,Carlos Lima,carlos.lima@example.com,Marketing,Beatriz Gomes,beatriz.gomes@example.com,11.6,08/06/2025 13:39:09 -03:00,2018-10-16,CC-301,Active
+1150,Ana Luiza Costela,eduardobdel@gmail.com,Delta,Fernanda Dias,fernanda.dias@example.com,Operações,Marcos Pinto,marcos.pinto@example.com,14.0,08/06/2025 14:48:02 -03:00,2021-07-09,CC-401,Active
