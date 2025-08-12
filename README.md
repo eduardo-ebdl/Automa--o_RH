@@ -1,29 +1,30 @@
 # Automação de Processos de RH com Python
 
-## 📖 Resumo
+## Resumo
 
-Este projeto é uma plataforma de automação construída em Python para otimizar e escalar processos de comunicação de Recursos Humanos. Ele foi projetado para substituir fluxos manuais ou de ferramentas low-code (como Power Automate), oferecendo mais robustez, flexibilidade e capacidade de monitoramento.
+Esse projeto é a refatoração de um sistema de alertas inicialmente feito com o power-automate. A ideia é implementar um sistema de monitoramento das automações (fluxo;alertas) com diversas melhorias.
+No momento possui uma integração com google sheets onde encaminha as logs de envios para uma planilha dentro do workspace do google.
+Trabalhando tambem em uma integracao com streamlit para analises a partir dos dados do google sheets
 
-O sistema lê dados de funcionários, aplica regras de negócio customizáveis e dispara notificações por e-mail, registrando todas as atividades em logs locais e em uma planilha centralizada no Google Sheets.
+##  Funcionalidades (Features)
 
-## ✨ Funcionalidades (Features)
-
-- **Alertas de Horas Extras:**
-  - `Diário:` Envio de alerta individual para o colaborador.
-  - `Semanal:` Envio de resumo consolidado para o gestor com a lista do seu time.
-  - `Semanal:` Envio de resumo consolidado para o coordenador com a lista da sua área.
+- **Alertas de Horas Extras (para RH):**
+  - `Diário:` Envio de alerta individual para o colaborador que excedeu alguma regra (por exemplo, execução total do permitido)
+  - `Semanal:` Envio de resumo consolidado para o gestor com a lista do seu time com a regra de limite de execução permitida.
+  - `Semanal:` Envio de resumo consolidado para o coordenador com a lista da sua área com a regra de limite de execução permitida.
 - **Comunicações de RH:**
-  - `Diário:` Envio de e-mail comemorativo no aniversário de empresa de cada funcionário.
-  - `Diário:` Envio de lembrete para o gestor sobre o fim do período de experiência de um colaborador.
+  - `Diário:` Envio de e-mail comemorativo no aniversário de empresa de cada funcionário (ex> pessoa entrou dia 15/08/24, se rodar no dia 15/08/25 vai enviar um email de parabens por 1 ano, etc..)  .
+  - `Diário:` Envio de lembrete para o gestor sobre o fim do período de experiência de um colaborador (em desenvolvimento).
 - **Monitoramento e Auditoria:**
   - Registro de todas as ações em arquivos de log diários e rotacionados.
   - Integração com Google Sheets para manter um log histórico de auditoria e dashboards de status diário.
 - **Templates Profissionais:**
   - E-mails em HTML com CSS, utilizando um sistema de templates com Jinja2 para garantir consistência visual e facilidade de manutenção.
 
-## 🏗️ Arquitetura do Projeto
+## Arquitetura do Projeto
 
 O projeto segue uma arquitetura de software profissional baseada no princípio da Separação de Responsabilidades para garantir manutenibilidade e escalabilidade.
+-- em desenvolvimento
 
 ```
 AUTOMAÇÃO_RH/
@@ -50,7 +51,7 @@ A pasta `core` é o coração da aplicação, contendo toda a lógica reutilizá
 -   `core/logger_config.py`: Configura o sistema de logging para todo o projeto.
 -   `core/utils.py`: Uma "caixa de ferramentas" com funções utilitárias reutilizáveis por todo o projeto.
 
-## 🚀 Como Executar
+## Como Executar (ainda nao foi revisado)
 
 ### Pré-requisitos
 - Python 3.10+
@@ -103,3 +104,10 @@ Este projeto serve como uma base robusta para a construção de uma pipeline de 
 - [ ] **Fase 5: Visualização e Ação**
     - [ ] Criar um dashboard interativo com **Streamlit** conectado diretamente ao Databricks para visualização de KPIs.
     - [ ] Manter e expandir o sistema de notificações por e-mail como a camada de "ação" da pipeline.
+     
+
+
+## Responsaveis
+
+Eduardo Lima  
+Victor Castro
