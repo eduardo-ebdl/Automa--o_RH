@@ -1,16 +1,25 @@
-# Arquivo de variáveis de ambiente - NUNCA ENVIE ESTE ARQUIVO PARA O REPOSITÓRIO!
-.env
+# Arquivos de ambiente virtual
+.venv/
+venv/
 
-# Arquivos de cache do Python
+# Arquivos de credenciais e segredos LOCAIS
+.env
+google_credentials.json
+
+# Pastas de cache e arquivos compilados do Python
 __pycache__/
 *.pyc
 *.pyo
+*.pyd
 
-# Arquivos de ambiente virtual
-.venv/
+# Pastas de output geradas pela aplicação
+logs/
+previews_output/
 
-# Logs
-/logs
+# Arquivos de configuração específicos do editor de código
+.vscode/
+.idea/
 
-# Chave Google
-google_credentials.json
+# Arquivos gerados pelo Sistema Operacional
+.DS_Store
+Thumbs.db

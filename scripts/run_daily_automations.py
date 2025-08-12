@@ -1,33 +1,26 @@
-# 0_run_all_automations.py
+from dotenv import load_dotenv
 import time
 import sys
 import os
 
-# Pega o caminho absoluto da pasta onde este script está (a raiz do projeto)
-# e o adiciona à lista de locais onde o Python procura por módulos.
-project_root = os.path.dirname(os.path.abspath(__file__))
-if project_root not in sys.path:
-    sys.path.insert(0, project_root)
+# pega o caminho da pasta onde o script está (ex: .../Automação_RH/scripts)
+script_dir = os.path.dirname(os.path.abspath(__file__))
+# pega o diretório "pai" da pasta do script (a raiz do projeto, ex: .../Automação_RH)
+project_root = os.path.dirname(script_dir)
+# adiciona a raiz do projeto à lista de caminhos do Python
+sys.path.insert(0, project_root)
 
-from dotenv import load_dotenv
 from core.logger_config import logger
-
 try:
-    from automations import a1_individual_contributor
-    from automations import a2_consolidated_manager
-    from automations import a3_consolidated_coordinator
-    from automations import a4_work_anniversary
-    logger.info("All automation modules imported successfully.")
+    from automations.daily import d1_individual_contributor
+    from automations.daily import d2_work_anniversary
+    logger.info("Daily automation modules imported successfully.")
 except ImportError as e:
-    logger.error(f"CRITICAL: Failed to import an automation module. Error: {e}")
-    print(f"\nERRO DE IMPORTAÇÃO: {e}")
-    print("Verifique se os nomes dos arquivos em 'automations/' estão corretos e se a pasta contém um arquivo '__init__.py'.\n")
-    sys.exit() 
+    logger.error(f"CRITICAL: Failed to import a daily automation module. Error: {e}", exc_info=True)
+    sys.exit()
 
 def main():
-    """
-    Main orchestrator to run all HR automations in sequence.
-    """
+    """Orchestrator for DAILY HR automations."""
     start_time = time.time()
     logger.info("==========================================================")
     logger.info("  STARTING DAILY HR AUTOMATION RUN")
@@ -36,12 +29,10 @@ def main():
     total_success = 0
     total_failed = 0
     
-    # Lista de automações para rodar
+    # lista de tarefas diárias
     automation_tasks = [
-        a1_individual_contributor,
-        a2_consolidated_manager,
-        a3_consolidated_coordinator,
-        a4_work_anniversary
+        d1_individual_contributor,
+        d2_work_anniversary
     ]
     
     for task_module in automation_tasks:
@@ -56,7 +47,7 @@ def main():
             logger.error(f"A critical error occurred during task {task_name}: {e}", exc_info=True)
 
     end_time = time.time()
-    total_time = end_time - time.time()
+    total_time = end_time - start_time
     
     logger.info("==========================================================")
     logger.info("  DAILY HR AUTOMATION RUN FINISHED")
