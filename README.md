@@ -87,7 +87,7 @@ Este projeto serve como uma base robusta para a construção de uma pipeline de 
 
 - [ ] **Fase 1: Data Lakehouse e Ingestão**
     - [ ] Migrar a fonte de dados de CSV para tabelas no **Databricks Delta Lake**.
-    - [ ] (Avançado) Gerenciar a infraestrutura na nuvem com **Terraform**.
+    - [ ] Gerar dados e atualizar diariamente com groq/pandas
 
 - [ ] **Fase 2: Transformação e Qualidade de Dados**
     - [ ] Implementar um projeto **dbt** para modelar e transformar os dados brutos em tabelas analíticas limpas.
