@@ -8,7 +8,7 @@ import config
 
 
 # date helpers
-def get_today() -> date:
+def get_target_date() -> date:
     """Retorna a data de hoje considerando o modo configurado (today ou specific)."""
     return date.today() if config.DATE_MODE == "today" else config.SPECIFIC_DATE
 

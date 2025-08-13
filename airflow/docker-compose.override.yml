@@ -1,0 +1,11 @@
+services:
+  scheduler:
+    volumes:
+      - ../automations:/usr/local/airflow/automations
+      - ../config:/usr/local/airflow/config
+      - ../core:/usr/local/airflow/core
+      - ../data:/usr/local/airflow/data
+      - ../templates:/usr/local/airflow/templates
+      - ../google_credentials.json:/usr/local/airflow/google_credentials.json
+    env_file:
+      - ../.env
