@@ -1,4 +1,5 @@
 from datetime import timedelta
+from pathlib import Path
 
 # app settings
 BATCH_SIZE = 500
@@ -8,6 +9,8 @@ ENABLE_DEBUG_LOGS = True
 
 # constants
 COL_HOURS = "Horas"
+PROJECT_ROOT = Path(__file__).parent.parent
+CONTRIBUTORS_FILE = PROJECT_ROOT / "data" / "sample_data.csv"
 COL_PROJECT = "Projeto"
 COL_EMPLOYEE = "Colaborador"
 MSG_NO_DATA = "Nenhum dado encontrado para o período."
